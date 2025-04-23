@@ -1,24 +1,30 @@
 import pandas as pd
+import os
 
-def load_data(file_path: str) -> pd.DataFrame:
+def load_data(file_path: str):
     """
-    Load data from a CSV file into a pandas DataFrame.
+    Load data from a .xlsx file 
 
     Args:
-        file_path (str): The path to the CSV file.
+        file_path (str): The path to the .xlsx file.
 
     Returns:
-        pd.DataFrame: The loaded DataFrame.
+    DataFrame: A pandas DataFrame containing the data from the file.
     """
-    try:
-        df = pd.read_csv(file_path)
-        return df
-    except FileNotFoundError:
-        print(f"Error: The file {file_path} was not found.")
-        return pd.DataFrame()  # Return an empty DataFrame on error
-    except pd.errors.EmptyDataError:
-        print(f"Error: The file {file_path} is empty.")
-        return pd.DataFrame()  # Return an empty DataFrame on error
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return pd.DataFrame()  # Return an empty DataFrame on error
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"The file {file_path} does not exist.")
+
+    # Load the data from the .xlsx file
+    df = pd.read_excel(file_path)
+    df.rename(columns={
+        'Año': 'year',
+        'Id_municipio': 'municipality_id',
+        'Municipio': 'municipality',
+        'Subregión': 'subregion',
+        'Cantidad': 'victim_count'
+    }, inplace=True)   
+    print(f"Loaded {df.shape[0]} rows and {df.shape[1]} columns from {file_path}.")
+    return df
+
+
+
