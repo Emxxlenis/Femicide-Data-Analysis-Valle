@@ -12,13 +12,22 @@ This project performs a detailed analysis of feminicides in Valle del Cauca (Col
 
 The peak was in 2020 (almost 40% of all cases). There’s a notable decrease in 2023, followed by a rise again in 2024. This irregularity might reflect reporting issues or social/political changes.
 
+![Image](https://github.com/user-attachments/assets/bf563054-3a67-4aae-b502-b40890d9489d)
+
+![Image](https://github.com/user-attachments/assets/bd82efcb-8d3c-43de-8927-43ecc186b0f7)
+
 ### 🏙️ By Municipality
 
 Cali alone accounts for over half of the total feminicides, which highlights an urgent need for focused policy and social interventions in urban zones.
 
+![Image](https://github.com/user-attachments/assets/665960ba-7ddf-4d7c-b73a-e71012052cd6)
+
 ### 🗺️ By Subregion
 
 The southern part of Valle del Cauca is disproportionately affected. This could relate to demographic density or institutional weaknesses.
+
+![Image](https://github.com/user-attachments/assets/4f604db4-9548-4dd1-af5e-b48ed4e08376)
+
 
 
 
