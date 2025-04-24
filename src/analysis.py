@@ -47,16 +47,19 @@ def get_feminicides_by_subregion(df: pd.DataFrame) -> pd.DataFrame:
     return grouped.sort_values(by="victim_count", ascending=False)
 
 
-
 def get_feminicides_trend(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Returns a DataFrame showing the trend of feminicides over time (by year).
+    Returns a DataFrame showing the trend of feminicides over time (by year), 
+    including the percentage of total cases per year.
 
     Args:
         df (pd.DataFrame): The cleaned dataset.
 
     Returns:
-        pd.DataFrame: A DataFrame showing the trend of feminicides over the years.
+        pd.DataFrame: A DataFrame with year, victim count, and percentage.
     """
-    trend = df.groupby("year", as_index=False)["victim_count"].sum()
-    return trend
+    grouped = df.groupby("year", as_index=False)["victim_count"].sum()
+    total = grouped["victim_count"].sum()
+    grouped["percentage"] = round((grouped["victim_count"] / total) * 100, 2)
+    return grouped
+
