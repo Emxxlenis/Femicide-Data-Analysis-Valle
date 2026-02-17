@@ -2,13 +2,13 @@
 
 # Feminicide Analysis in Valle del Cauca (2020–2024) 
 
-## 📊 Overview
+## Overview
 This project performs a detailed analysis of feminicides in Valle del Cauca (Colombia) between 2018 and 2024. It utilizes official public data from Datos Abiertos Colombia, and focuses on visualizing trends, key municipalities, and affected subregions.
 
 
-## 📈 Insights & Conclusions 
+## Insights & Conclusions 
 
-### 📅 By Year
+### By Year
 
 The peak was in 2020 (almost 40% of all cases). There’s a notable decrease in 2023, followed by a rise again in 2024. This irregularity might reflect reporting issues or social/political changes.
 
@@ -16,13 +16,13 @@ The peak was in 2020 (almost 40% of all cases). There’s a notable decrease in 
 
 ![Image](https://github.com/user-attachments/assets/bd82efcb-8d3c-43de-8927-43ecc186b0f7)
 
-### 🏙️ By Municipality
+### By Municipality
 
 Cali alone accounts for over half of the total feminicides, which highlights an urgent need for focused policy and social interventions in urban zones.
 
 ![Image](https://github.com/user-attachments/assets/665960ba-7ddf-4d7c-b73a-e71012052cd6)
 
-### 🗺️ By Subregion
+### By Subregion
 
 The southern part of Valle del Cauca is disproportionately affected. This could relate to demographic density or institutional weaknesses.
 
@@ -31,7 +31,7 @@ The southern part of Valle del Cauca is disproportionately affected. This could 
 
 
 
-## 📁 Dataset
+## Dataset
 
 - **Source:** Datos Abiertos Colombia
 
@@ -41,7 +41,7 @@ The southern part of Valle del Cauca is disproportionately affected. This could 
 
 - **Time range:** 2018–2024
 
-## 🧪 Technical Stack
+## Technical Stack
 
 - **Language:** Python 3.12.9
 
@@ -71,7 +71,7 @@ Project structure:
 ```
 
 
-## ⚙️ How to Run
+## How to Run
 
 ```
 # 1. Clone the repo
@@ -92,16 +92,16 @@ The script will:
 - Plot charts and save them in the `outputs/` directory.
 
 
-## 📎 Citation
+## Citation
 
 If you use this dataset, please cite:
 > Government of Colombia (Datos Abiertos). Total de mujeres víctimas de feminicidio por municipio [Data set]. Retrieved from [https://www.datos.gov.co/Estad-sticas-Nacionales/Total-de-mujeres-victimas-de-feminicidio-por-munic/fs93-tx8v
 ](https://www.datos.gov.co/Estad-sticas-Nacionales/Total-de-mujeres-victimas-de-feminicidio-por-munic/fs93-tx8v/about_data)
 
-## 🧠 Author & Motivation
+## Author & Motivation
 Made by Emily Lenis, data & AI student from Cali. This project is part of a personal initiative to use technology for social impact.
 
-## 📬 Feedback
+## Feedback
 Feel free to fork, suggest changes, or reach out via GitHub Issues.
 
 
@@ -109,24 +109,24 @@ Feel free to fork, suggest changes, or reach out via GitHub Issues.
 
 # Análisis de Feminicidios en Valle del Cauca (2018–2024)
 
-## 📊 Visión General  
+## Visión General  
 Este proyecto realiza un análisis detallado de los feminicidios en el departamento del Valle del Cauca (Colombia) entre 2018 y 2024. Se utiliza un conjunto de datos oficial de Datos Abiertos Colombia, con el objetivo de visualizar tendencias, municipios clave y subregiones más afectadas.
 
 
-## 📈 Hallazgos y Conclusiones
+##  Hallazgos y Conclusiones
 
-### 📅 Por Año  
+###  Por Año  
 El pico se presentó en 2020 (casi el 40% del total de casos). En 2023 se observa una disminución considerable, seguida de un aumento en 2024. Esta irregularidad puede deberse a fallos en el reporte o a cambios sociales/políticos.
 
-### 🏙️ Por Municipio  
+### Por Municipio  
 Solo Cali concentra más de la mitad de los feminicidios registrados, lo que evidencia una necesidad urgente de políticas públicas focalizadas y acciones sociales en zonas urbanas.
 
-### 🗺️ Por Subregión  
+### Por Subregión  
 La zona sur del Valle del Cauca es la más afectada. Esto podría estar relacionado con la densidad demográfica o con deficiencias institucionales en esas regiones.
 
 
 
-## 📁 Conjunto de Datos
+## Conjunto de Datos
 
 - **Fuente:** Datos Abiertos Colombia  
 - **Formato:** Excel (.xlsx)  
@@ -135,7 +135,7 @@ La zona sur del Valle del Cauca es la más afectada. Esto podría estar relacion
 
 ---
 
-## 🧪 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Lenguaje:** Python 3.12.9  
 - **Librerías:**  
@@ -160,7 +160,7 @@ La zona sur del Valle del Cauca es la más afectada. Esto podría estar relacion
 └── README.md
 ```
 
-## ⚙️ Cómo Ejecutarlo
+## Cómo Ejecutarlo
 
 ```
 
@@ -185,12 +185,12 @@ El script realizará:
 - Creación de visualizaciones almacenadas en el directorio `outputs/`
 
 
-## 📎 Cita
+## Cita
 Si utilizas este conjunto de datos, por favor cita:
 > Gobierno de Colombia (Datos Abiertos). Total de mujeres víctimas de feminicidio por municipio [Conjunto de datos]. Recuperado de https://www.datos.gov.co/Estad-sticas-Nacionales/Total-de-mujeres-victimas-de-feminicidio-por-munic/fs93-tx8v
 
-## 🧠 Autora y Motivación
+## Autora y Motivación
 Hecho por Emily Lenis, estudiante de Ingeniería de Datos e Inteligencia Artificial de Cali. Este proyecto hace parte de una iniciativa personal para usar la tecnología como motor de impacto social.
 
-## 📬 Feedback
+## Feedback
 Siéntete libre de hacer fork, sugerir mejoras o dejar tus comentarios a través de GitHub Issues.
