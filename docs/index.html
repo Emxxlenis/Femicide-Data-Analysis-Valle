@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feminicidios en el Valle del Cauca</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Segoe UI", Helvetica, Arial, sans-serif; background: #120f12; color: #f6eef1; line-height: 1.5; }
+    main { max-width: 880px; margin: 0 auto; padding: 40px 20px 72px; }
+    h1 { font-weight: 560; letter-spacing: -0.03em; margin: 0 0 8px; }
+    a { color: #e7a3b5; }
+    p, .en { color: #e4d5db; }
+    .en { font-size: 0.92rem; }
+    .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 22px 0; }
+    .kpi, .card { background: #1d1619; border: 1px solid #3a2a30; border-radius: 12px; padding: 16px; }
+    .kpi b { display: block; font-size: 1.5rem; }
+    h2 { font-size: 1.05rem; margin: 28px 0 10px; }
+    .bar { display: grid; grid-template-columns: 140px 1fr auto auto; gap: 10px; align-items: center; margin: 7px 0; }
+    .bar i { display: block; height: 8px; background: #e7a3b5; border-radius: 99px; }
+    .bar em { color: #cbb8c0; font-style: normal; font-size: 0.85rem; }
+    @media (max-width: 700px) {
+      .kpis { grid-template-columns: 1fr; }
+      .bar { grid-template-columns: 1fr auto; }
+      .bar i { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="en">Counts from the project Excel. Official open data, Valle del Cauca. The file has no rows for 2021 or 2022.</p>
+    <h1>Lectura territorial de feminicidios</h1>
+    <p>Víctimas por año, municipio y subregión, calculadas con el mismo archivo del repositorio. Cali está clasificada en la subregión Sur, así que esa barra es sobre todo Cali.</p>
+    <p><a href="https://github.com/Emxxlenis/Femicide-Data-Analysis-Valle">Código y archivo</a> · Fuente: Datos Abiertos Colombia.</p>
+    <section class="kpis">
+      <div class="kpi"><b>78</b><span>víctimas en el archivo</span></div>
+      <div class="kpi"><b>57.7%</b><span>están en Cali</span></div>
+      <div class="kpi"><b>39.7%</b><span>corresponden a 2020</span></div>
+    </section>
+    <h2>Por año</h2>
+    <div class="card"><div class="bar"><span>2018</span><i style="width:4%"></i><b>1</b><em>1.3%</em></div>
+<div class="bar"><span>2019</span><i style="width:77%"></i><b>24</b><em>30.8%</em></div>
+<div class="bar"><span>2020</span><i style="width:100%"></i><b>31</b><em>39.7%</em></div>
+<div class="bar"><span>2023</span><i style="width:26%"></i><b>8</b><em>10.3%</em></div>
+<div class="bar"><span>2024</span><i style="width:45%"></i><b>14</b><em>17.9%</em></div></div>
+    <h2>Por municipio</h2>
+    <div class="card"><div class="bar"><span>Cali</span><i style="width:100%"></i><b>45</b><em>57.7%</em></div>
+<div class="bar"><span>Buenaventura</span><i style="width:16%"></i><b>7</b><em>9.0%</em></div>
+<div class="bar"><span>Palmira</span><i style="width:13%"></i><b>6</b><em>7.7%</em></div>
+<div class="bar"><span>Alcalá</span><i style="width:4%"></i><b>2</b><em>2.6%</em></div>
+<div class="bar"><span>Candelaria</span><i style="width:4%"></i><b>2</b><em>2.6%</em></div>
+<div class="bar"><span>Cartago</span><i style="width:4%"></i><b>2</b><em>2.6%</em></div>
+<div class="bar"><span>Jamundí</span><i style="width:4%"></i><b>2</b><em>2.6%</em></div>
+<div class="bar"><span>La Cumbre</span><i style="width:4%"></i><b>2</b><em>2.6%</em></div>
+<div class="bar"><span>Pradera</span><i style="width:4%"></i><b>2</b><em>2.6%</em></div>
+<div class="bar"><span>Tuluá</span><i style="width:4%"></i><b>2</b><em>2.6%</em></div>
+<div class="bar"><span>Andalucía</span><i style="width:4%"></i><b>1</b><em>1.3%</em></div>
+<div class="bar"><span>Dagua</span><i style="width:4%"></i><b>1</b><em>1.3%</em></div>
+<div class="bar"><span>La Unión</span><i style="width:4%"></i><b>1</b><em>1.3%</em></div>
+<div class="bar"><span>La Victoria</span><i style="width:4%"></i><b>1</b><em>1.3%</em></div>
+<div class="bar"><span>Vijes</span><i style="width:4%"></i><b>1</b><em>1.3%</em></div>
+<div class="bar"><span>Yumbo</span><i style="width:4%"></i><b>1</b><em>1.3%</em></div></div>
+    <h2>Por subregión</h2>
+    <div class="card"><div class="bar"><span>Sur</span><i style="width:100%"></i><b>62</b><em>79.5%</em></div>
+<div class="bar"><span>Pacífico</span><i style="width:11%"></i><b>7</b><em>9.0%</em></div>
+<div class="bar"><span>Norte</span><i style="width:10%"></i><b>6</b><em>7.7%</em></div>
+<div class="bar"><span>Centro</span><i style="width:5%"></i><b>3</b><em>3.8%</em></div></div>
+  </main>
+</body>
+</html>

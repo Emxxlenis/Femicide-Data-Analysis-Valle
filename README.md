@@ -1,6 +1,10 @@
-# English
+# Feminicide Analysis in Valle del Cauca (2020–2024)
 
-# Feminicide Analysis in Valle del Cauca (2020–2024) 
+**Demo:** https://emxxlenis.github.io/Femicide-Data-Analysis-Valle/
+
+The page reads the counts in `data/raw`. The file has no rows for 2021 or 2022. Cali is classified in the Sur subregion, so that bar is mostly Cali.
+
+# English 
 
 ## Overview
 This project performs a detailed analysis of feminicides in Valle del Cauca (Colombia) between 2018 and 2024. It utilizes official public data from Datos Abiertos Colombia, and focuses on visualizing trends, key municipalities, and affected subregions.
